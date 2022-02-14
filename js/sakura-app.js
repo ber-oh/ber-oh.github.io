@@ -1693,7 +1693,7 @@ String.prototype.render = function(context) {
 }
 
 function calcdata() {
-    x = new Date(2021, 8, 12);
+    x = new Date(2021, 7, 12);
     y = new Date();
     var day = parseInt((y - x) / (1000 * 60 * 60 * 24));
     return day
