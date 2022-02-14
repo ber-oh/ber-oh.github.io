@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>hojun</title>
+  <title>Ber&amp;OH</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/oh/atom.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="https://ber666.github.io/oh/"/>
   <updated>2022-02-14T02:18:03.311Z</updated>
-  <id>/</id>
+  <id>https://ber666.github.io/oh/</id>
   
   <author>
-    <name>hojun</name>
+    <name>Ber123</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>建站记录</title>
-    <link href="/2022/02/14/%E5%BC%80%E7%AB%99/"/>
-    <id>/2022/02/14/开站/</id>
+    <link href="https://ber666.github.io/oh/2022/02/14/%E5%BC%80%E7%AB%99/"/>
+    <id>https://ber666.github.io/oh/2022/02/14/开站/</id>
     <published>2022-02-13T16:00:00.000Z</published>
     <updated>2022-02-14T02:18:03.311Z</updated>
     
@@ -37,15 +37,15 @@
     
     </summary>
     
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+      <category term="随想" scheme="https://ber666.github.io/oh/categories/%E9%9A%8F%E6%83%B3/"/>
     
     
   </entry>
   
   <entry>
     <title>2022 新年快乐🍾️.pdf</title>
-    <link href="/2022/01/01/%E6%96%B0%E5%B9%B4/"/>
-    <id>/2022/01/01/新年/</id>
+    <link href="https://ber666.github.io/oh/2022/01/01/%E6%96%B0%E5%B9%B4/"/>
+    <id>https://ber666.github.io/oh/2022/01/01/新年/</id>
     <published>2021-12-31T16:00:00.000Z</published>
     <updated>2022-02-14T01:55:40.815Z</updated>
     
@@ -61,15 +61,15 @@
     
     </summary>
     
-      <category term="手账" scheme="/categories/%E6%89%8B%E8%B4%A6/"/>
+      <category term="手账" scheme="https://ber666.github.io/oh/categories/%E6%89%8B%E8%B4%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>Merry Christmas!</title>
-    <link href="/2021/12/25/%E5%9C%A3%E8%AF%9E%E8%8A%82/"/>
-    <id>/2021/12/25/圣诞节/</id>
+    <link href="https://ber666.github.io/oh/2021/12/25/%E5%9C%A3%E8%AF%9E%E8%8A%82/"/>
+    <id>https://ber666.github.io/oh/2021/12/25/圣诞节/</id>
     <published>2021-12-24T16:00:00.000Z</published>
     <updated>2022-02-14T02:11:55.213Z</updated>
     
@@ -85,15 +85,15 @@
     
     </summary>
     
-      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+      <category term="相册" scheme="https://ber666.github.io/oh/categories/%E7%9B%B8%E5%86%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>Untitled (Draft).pdf</title>
-    <link href="/2021/12/01/%E7%94%9F%E6%97%A5/"/>
-    <id>/2021/12/01/生日/</id>
+    <link href="https://ber666.github.io/oh/2021/12/01/%E7%94%9F%E6%97%A5/"/>
+    <id>https://ber666.github.io/oh/2021/12/01/生日/</id>
     <published>2021-11-30T16:00:00.000Z</published>
     <updated>2022-02-14T02:16:12.516Z</updated>
     
@@ -109,15 +109,15 @@
     
     </summary>
     
-      <category term="手账" scheme="/categories/%E6%89%8B%E8%B4%A6/"/>
+      <category term="手账" scheme="https://ber666.github.io/oh/categories/%E6%89%8B%E8%B4%A6/"/>
     
     
   </entry>
   
   <entry>
     <title>中秋节</title>
-    <link href="/2021/09/21/%E4%B8%AD%E7%A7%8B%E8%8A%82/"/>
-    <id>/2021/09/21/中秋节/</id>
+    <link href="https://ber666.github.io/oh/2021/09/21/%E4%B8%AD%E7%A7%8B%E8%8A%82/"/>
+    <id>https://ber666.github.io/oh/2021/09/21/中秋节/</id>
     <published>2021-09-20T16:00:00.000Z</published>
     <updated>2022-02-14T02:17:03.303Z</updated>
     
@@ -133,15 +133,15 @@
     
     </summary>
     
-      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+      <category term="相册" scheme="https://ber666.github.io/oh/categories/%E7%9B%B8%E5%86%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>First (Second?) Date</title>
-    <link href="/2021/08/16/firstdate/"/>
-    <id>/2021/08/16/firstdate/</id>
+    <link href="https://ber666.github.io/oh/2021/08/16/firstdate/"/>
+    <id>https://ber666.github.io/oh/2021/08/16/firstdate/</id>
     <published>2021-08-15T16:00:00.000Z</published>
     <updated>2022-02-14T01:55:41.861Z</updated>
     
@@ -158,15 +158,39 @@
     
     </summary>
     
-      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+      <category term="相册" scheme="https://ber666.github.io/oh/categories/%E7%9B%B8%E5%86%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在一起</title>
+    <link href="https://ber666.github.io/oh/2021/08/12/%E5%9C%A8%E4%B8%80%E8%B5%B7/"/>
+    <id>https://ber666.github.io/oh/2021/08/12/在一起/</id>
+    <published>2021-08-11T16:00:00.000Z</published>
+    <updated>2022-02-14T02:06:53.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;在一起的那天&quot;&gt;&lt;a href=&quot;#在一起的那天&quot; class=&quot;headerlink&quot; title=&quot;在一起的那天&quot;&gt;&lt;/a&gt;在一起的那天&lt;/h1&gt;&lt;p&gt;那间咖啡里➡️管翅吃饭➡️四中&lt;br&gt;&lt;img src=&quot;/files/sizhong.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="相册" scheme="https://ber666.github.io/oh/categories/%E7%9B%B8%E5%86%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>“幻想的爱...”</title>
-    <link href="/2021/08/12/%E5%8D%A1%E6%8B%89%E9%A9%AC%E4%BD%90%E5%A4%AB%E5%85%84%E5%BC%9F/"/>
-    <id>/2021/08/12/卡拉马佐夫兄弟/</id>
+    <link href="https://ber666.github.io/oh/2021/08/12/%E5%8D%A1%E6%8B%89%E9%A9%AC%E4%BD%90%E5%A4%AB%E5%85%84%E5%BC%9F/"/>
+    <id>https://ber666.github.io/oh/2021/08/12/卡拉马佐夫兄弟/</id>
     <published>2021-08-11T16:00:00.000Z</published>
     <updated>2022-02-14T02:06:59.153Z</updated>
     
@@ -183,39 +207,15 @@
     
     </summary>
     
-      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>在一起</title>
-    <link href="/2021/08/12/%E5%9C%A8%E4%B8%80%E8%B5%B7/"/>
-    <id>/2021/08/12/在一起/</id>
-    <published>2021-08-11T16:00:00.000Z</published>
-    <updated>2022-02-14T02:06:53.548Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;在一起的那天&quot;&gt;&lt;a href=&quot;#在一起的那天&quot; class=&quot;headerlink&quot; title=&quot;在一起的那天&quot;&gt;&lt;/a&gt;在一起的那天&lt;/h1&gt;&lt;p&gt;那间咖啡里➡️管翅吃饭➡️四中&lt;br&gt;&lt;img src=&quot;/files/sizhong.jpg&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+      <category term="随想" scheme="https://ber666.github.io/oh/categories/%E9%9A%8F%E6%83%B3/"/>
     
     
   </entry>
   
   <entry>
     <title>draft</title>
-    <link href="/2021/07/29/draft/"/>
-    <id>/2021/07/29/draft/</id>
+    <link href="https://ber666.github.io/oh/2021/07/29/draft/"/>
+    <id>https://ber666.github.io/oh/2021/07/29/draft/</id>
     <published>2021-07-28T16:00:00.000Z</published>
     <updated>2022-02-14T01:55:32.583Z</updated>
     
@@ -231,7 +231,7 @@
     
     </summary>
     
-      <category term="文章" scheme="/categories/%E6%96%87%E7%AB%A0/"/>
+      <category term="文章" scheme="https://ber666.github.io/oh/categories/%E6%96%87%E7%AB%A0/"/>
     
     
   </entry>
