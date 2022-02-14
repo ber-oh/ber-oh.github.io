@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hojun</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2022-02-14T02:18:03.311Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>hojun</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>建站记录</title>
+    <link href="/2022/02/14/%E5%BC%80%E7%AB%99/"/>
+    <id>/2022/02/14/开站/</id>
+    <published>2022-02-13T16:00:00.000Z</published>
+    <updated>2022-02-14T02:18:03.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;2022/01/28 开始设计网站&lt;/li&gt;
+&lt;li&gt;2022/02/02 复习HTML/CSS/Javascript (&lt;a href=&quot;https://cs50.harvard.edu/web/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2022 新年快乐🍾️.pdf</title>
+    <link href="/2022/01/01/%E6%96%B0%E5%B9%B4/"/>
+    <id>/2022/01/01/新年/</id>
+    <published>2021-12-31T16:00:00.000Z</published>
+    <updated>2022-02-14T01:55:40.815Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;点击查看羟老师精美的&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="手账" scheme="/categories/%E6%89%8B%E8%B4%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Merry Christmas!</title>
+    <link href="/2021/12/25/%E5%9C%A3%E8%AF%9E%E8%8A%82/"/>
+    <id>/2021/12/25/圣诞节/</id>
+    <published>2021-12-24T16:00:00.000Z</published>
+    <updated>2022-02-14T02:11:55.213Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一个（远程）一起过的圣诞节！&quot;&gt;&lt;a href=&quot;#第一个（远程）一起过的圣诞节！&quot; class=&quot;headerlink&quot; title=&quot;第一个（远程）一起过的圣诞节！&quot;&gt;&lt;/a&gt;第一个（远程）一起过的圣诞节！&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Untitled (Draft).pdf</title>
+    <link href="/2021/12/01/%E7%94%9F%E6%97%A5/"/>
+    <id>/2021/12/01/生日/</id>
+    <published>2021-11-30T16:00:00.000Z</published>
+    <updated>2022-02-14T02:16:12.516Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;第一次收到手写的&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="手账" scheme="/categories/%E6%89%8B%E8%B4%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>中秋节</title>
+    <link href="/2021/09/21/%E4%B8%AD%E7%A7%8B%E8%8A%82/"/>
+    <id>/2021/09/21/中秋节/</id>
+    <published>2021-09-20T16:00:00.000Z</published>
+    <updated>2022-02-14T02:17:03.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;中秋节&quot;&gt;&lt;a href=&quot;#中秋节&quot; class=&quot;headerlink&quot; title=&quot;中秋节&quot;&gt;&lt;/a&gt;中秋节&lt;/h1&gt;&lt;p&gt;拥有了第一张赛博合影，薯片情侣正式出道&lt;br&gt;&lt;img src=&quot;/files/spql.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>First (Second?) Date</title>
+    <link href="/2021/08/16/firstdate/"/>
+    <id>/2021/08/16/firstdate/</id>
+    <published>2021-08-15T16:00:00.000Z</published>
+    <updated>2022-02-14T01:55:41.861Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;不知道算第几次的约会&quot;&gt;&lt;a href=&quot;#不知道算第几次的约会&quot; class=&quot;headerlink&quot; title=&quot;不知道算第几次的约会&quot;&gt;&lt;/a&gt;不知道算第几次的约会&lt;/h1&gt;&lt;p&gt;location: 合生汇&lt;/p&gt;
+&lt;h2 id=&quot;吃日料&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>“幻想的爱...”</title>
+    <link href="/2021/08/12/%E5%8D%A1%E6%8B%89%E9%A9%AC%E4%BD%90%E5%A4%AB%E5%85%84%E5%BC%9F/"/>
+    <id>/2021/08/12/卡拉马佐夫兄弟/</id>
+    <published>2021-08-11T16:00:00.000Z</published>
+    <updated>2022-02-14T02:06:59.153Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;幻想的爱急于求成，渴望很快得到圆满的功绩，并引起众人的注视。有时甚至肯于牺牲性命，只求不必旷日持久，而能象演戏那样轻易实现，并且引起大家的喝采。至于积极的爱，——那是一种工作和耐心，对于某些人也许是整整一门科学。&lt;br&gt;–陀思妥耶夫斯基《卡拉马佐夫
+        
+      
+    
+    </summary>
+    
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在一起</title>
+    <link href="/2021/08/12/%E5%9C%A8%E4%B8%80%E8%B5%B7/"/>
+    <id>/2021/08/12/在一起/</id>
+    <published>2021-08-11T16:00:00.000Z</published>
+    <updated>2022-02-14T02:06:53.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;在一起的那天&quot;&gt;&lt;a href=&quot;#在一起的那天&quot; class=&quot;headerlink&quot; title=&quot;在一起的那天&quot;&gt;&lt;/a&gt;在一起的那天&lt;/h1&gt;&lt;p&gt;那间咖啡里➡️管翅吃饭➡️四中&lt;br&gt;&lt;img src=&quot;/files/sizhong.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="相册" scheme="/categories/%E7%9B%B8%E5%86%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>draft</title>
+    <link href="/2021/07/29/draft/"/>
+    <id>/2021/07/29/draft/</id>
+    <published>2021-07-28T16:00:00.000Z</published>
+    <updated>2022-02-14T01:55:32.583Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;To
+        
+      
+    
+    </summary>
+    
+      <category term="文章" scheme="/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+  </entry>
+  
+</feed>

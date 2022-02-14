@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">bangumi | hojun</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+" type="text/css" media="all"> -->
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "猫博士👨‍🎓和羟老师👩‍🏫的小站";
+  mashiro_option.author_name = "的小站";
+  mashiro_option.site_url = "https://sakura.hojun.cn";
+  mashiro_option.v_appId = "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz";
+  mashiro_option.v_appKey = "mgOpfzbkHYqU92CV4IDlAUHQ";
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "/images/cover/cover.jpg".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('朋友，IE浏览器未适配哦~');
+  }
+  </script>
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+</head>
+</html>
+
+    <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+        <div class="scrollbar" id="bar">
+        </div>
+        <a href="#" class="cd-top faa-float animated"></a>
+        <section id="main-container">
+            <div class="headertop filter-dim">
+    <div id="banner_wave_1"></div>
+    <div id="banner_wave_2"></div>
+    <figure id="centerbg" class="centerbg">
+        <div class="focusinfo no-select">
+            <div class="header-tou">
+                <a>
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg">
+                </a>
+            </div>
+            <div id="counter">
+                We've been together for
+                <a id="mydate"></a> days!
+            </div>
+            <div class="header-info">
+                <p>
+                    &#34;Thank God I waited, cause my love never faded. I, just needed patience. It was always you.&#34;
+                </p>
+                <p>
+                    --Jake Miller, ROSS AND RACHEL
+                </p>
+                <!--div class="top-social_v2">
+                    <li id="bg-pre">
+                        <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+                    </li>
+                    
+                        
+                            
+                                    <li>
+                                        <a href="http://github.com/honjun" target="_blank" class="social-github" title="github">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/github.png">
+                  </a>
+                                    </li>
+                                    
+                                        
+                            
+                                    <li>
+                                        <a href="http://weibo.com/mashirozx?is_all=1" target="_blank" class="social-github" title="sina">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/sina.png">
+                  </a>
+                                    </li>
+                                    
+                                        
+                            
+                                    <li>
+                                        <a href="http://weibo.com/mashirozx?is_all=1" target="_blank" class="social-github" title="wangyiyun">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wangyiyun.png">
+                  </a>
+                                    </li>
+                                    
+                                        
+                            
+                                    <li>
+                                        <a href="http://weibo.com/mashirozx?is_all=1" target="_blank" class="social-github" title="zhihu">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/zhihu.png">
+                  </a>
+                                    </li>
+                                    
+                                        
+                            
+                                    <li>
+                                        <a href="http://weibo.com/mashirozx?is_all=1" target="_blank" class="social-github" title="email">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg">
+                  </a>
+                                    </li>
+                                    
+                                        
+                            
+                                <li class="wechat">
+                                    <a href="/#">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png">
+                  </a>
+                                    <div class="wechatInner">
+                                        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/wechat.jpg">
+                                    </div>
+                                </li>
+                                
+                                        
+                            
+                                <li class="wechat">
+                                    <a href="/#">
+                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png">
+                  </a>
+                                    <div class="wechatInner">
+                                        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/wechat.jpg">
+                                    </div>
+                                </li>
+                                
+                                        
+                                            
+                                                <li id="bg-next">
+                                                    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+                                                </li>
+                </div-->
+            </div>
+        </div>
+    </figure>
+    <div id="video-container" style="">
+        <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+        <div id="video-btn" class="loadvideo videolive">
+        </div>
+        <div id="video-add">
+        </div>
+        <div class="video-stu">
+        </div>
+    </div>
+    <div class="headertop-down faa-float animated" onclick="headertop_down()">
+        <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+    </div>
+</div>
+                <div id="page" class="site wrapper">
+                    <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink moe-mashiro">
+          <a href="/">
+            <span class="sakurasono">猫博士👨‍🎓和羟老师👩‍🏫</span>
+            <span class="shironeko">的小站</span>
+          </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/categories/手账/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          手账
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/文章/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          文章
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/相册/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          相册
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/随想/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/bangumi/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          影视
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/music/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          歌单
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                          主题
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+                        <link rel="stylesheet" href="/css/bangumi.css">
+<div class="pattern-center-blank"></div>
+<div id="content" class="site-content">
+    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
+        <header class="page-header">
+            <h1 class="cat-title">一起看过的电影/电视剧</h1> <span class="cat-des"><p>一起度过的时光</p> </span></header>
+        
+            <div class="bangumi">
+                <div class="row" id="rootRow">
+                    
+                        <div class="col s12 m6" id="bangumi-0">
+                            <div class="card hoverable" style="overflow: visible;">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <div class="activator itempic lazyload" style="background-image: url(https://tva1.sinaimg.cn/mw690/006Ferzugy1gtiiahk0p6j31gp1v0ttq.jpg);" data-src="https://tva1.sinaimg.cn/mw690/006Ferzugy1gtiiahk0p6j31gp1v0ttq.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-title should-ellipsis activator grey-text text-darken-4">
+                                        猫鼠游戏<i class="fa fa-commenting-o right"></i>
+                                    </div>
+                                    <p class="should-ellipsis-full">
+                                        Catch Me If You Can
+                                    </p>
+                                    <ul class="skill-list">
+                                        <li class="skill">
+                                            <div>
+                                                完成
+                                            </div>
+                                            <progress class="skill-1" max="100" value="100">
+                    </progress>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-reveal" style="display: none; transform: translateY(0%);">
+                                    <span class="card-title grey-text text-darken-4">
+                  猫鼠游戏<i class="fa fa-close right"></i>
+                </span>
+                                    <span>
+                  Catch Me If You Can<br>
+                </span>
+                                    <span>
+                  放送时间: 2021/08/14<span>
+                    <br>
+                    链接： <a href="https://www.bilibili.com/bangumi/play/ss25844/?">bilibili</a>
+                    <p>弗兰克（莱昂纳多·迪卡普里奥 Leonardo DiCaprio饰）是FBI有史以来年龄最小的通缉犯。他的犯罪手段神通广大，伪装身份的能力超乎常人，全美各地几乎都留下他的犯罪足迹。乔装医生、律师、飞行员，统统都是他曾经的身份。当然，弗兰克凭着这个“本领”，骗取了高达几百万的金额。活得逍遥快乐的弗兰克这次又成功伪造了一份学历证明，去医院做起了大夫。弗兰克不但在这里认识了护士布雷达（艾米·亚当斯 Amy Adams饰），二人擦出爱火花，还通过布雷达的父亲得到了一份检察官助理的优差。然而，这只是暴风雨前夕——一双眼睛已经盯住了弗兰克，誓要把他绳之于法不可。这就是FBI探员卡尔（汤姆·汉克斯 Tom Hanks饰）。在研究追捕弗兰克的过程中，卡尔领教到这个犯罪天才的过人智商。他屡次被弗兰克这个黄毛小子捉弄，心里又恨又不得不佩服。每当弗兰克有惊无险地从他的精心布局中逃脱时，这个猫鼠游戏显得有趣起来……弗兰克（莱昂纳多·迪卡普里奥 Leonardo DiCaprio饰）是FBI有史以来年龄最小的通缉犯。他的犯罪手段神通广大，伪装身份的能力超乎常人，全美各地几乎都留下他的犯罪足迹。乔装医生、律师、飞行员，统统都是他曾经的身份。当然，弗兰克凭着这个“本领”，骗取了高达几百万的金额。活得逍遥快乐的弗兰克这次又成功伪造了一份学历证明，去医院做起了大夫。弗兰克不但在这里认识了护士布雷达（艾米·亚当斯 Amy Adams饰），二人擦出爱火花，还通过布雷达的父亲得到了一份检察官助理的优差。然而，这只是暴风雨前夕——一双眼睛已经盯住了弗兰克，誓要把他绳之于法不可。这就是FBI探员卡尔（汤姆·汉克斯 Tom Hanks饰）。在研究追捕弗兰克的过程中，卡尔领教到这个犯罪天才的过人智商。他屡次被弗兰克这个黄毛小子捉弄，心里又恨又不得不佩服。每当弗兰克有惊无险地从他的精心布局中逃脱时，这个猫鼠游戏显得有趣起来……</p>
+                    <ul class="skill-list">
+                      <li class="skill">
+                        <div>
+                        完成</div>
+                        <progress class="skill-1" max="100" value="100">
+                        </progress>
+                      </li>
+                    </ul>
+                  </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col s12 m6" id="bangumi-1">
+                            <div class="card hoverable" style="overflow: visible;">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <div class="activator itempic lazyload" style="background-image: url(https://img3.km.com/dianyingimg/img/e/11/sup33458.jpg);" data-src="https://img3.km.com/dianyingimg/img/e/11/sup33458.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-title should-ellipsis activator grey-text text-darken-4">
+                                        步履不停<i class="fa fa-commenting-o right"></i>
+                                    </div>
+                                    <p class="should-ellipsis-full">
+                                        歩いても
+                                    </p>
+                                    <ul class="skill-list">
+                                        <li class="skill">
+                                            <div>
+                                                完成
+                                            </div>
+                                            <progress class="skill-1" max="100" value="100">
+                    </progress>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-reveal" style="display: none; transform: translateY(0%);">
+                                    <span class="card-title grey-text text-darken-4">
+                  步履不停<i class="fa fa-close right"></i>
+                </span>
+                                    <span>
+                  歩いても<br>
+                </span>
+                                    <span>
+                  放送时间: 2021/08/21<span>
+                    <br>
+                    链接： <a href="https://ys.km.com/dianying/33458.html">bilibili</a>
+                    <p>夏末的一天，在横山家的厨房里，母亲敏子和女儿千奈美正在忙着洗菜切菜。父亲恭平拄着拐杖独自外出散步。恭平是个开业医生，如今虽然已经退休，但一家人仍然住在连着医院的宅子里，他也一直牵挂着诊所的事务。二儿子良多带着妻儿也来到了老家。良多没有继承父业，他是一名绘画修复师，目前正处于失业中。带着个拖油瓶的由香里刚刚和良多结婚不久，十岁的儿子小敦还不习惯叫继父爸爸。初见良多的父母，由香里颇为紧张。而良多不喜欢父亲总拿自己和优秀的哥哥作比较，他难得回家，面对父母却气氛凝重。幸亏姐姐千奈美会说话，让家里又有了笑声。今天是横山家长子纯平的忌日。十五年前，他为了救助溺水少年而丧命。得救的少年已经成了大学生，他也来祭拜恩人，而恭平和敏子却很冷淡。母亲端出了拿手的料理，那是纯平最喜欢的玉米天富罗，再加上小孩子喜欢的外卖上寿司，一家人围着饭桌吃起饭来。</p>
+                    <ul class="skill-list">
+                      <li class="skill">
+                        <div>
+                        完成</div>
+                        <progress class="skill-1" max="100" value="100">
+                        </progress>
+                      </li>
+                    </ul>
+                  </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col s12 m6" id="bangumi-2">
+                            <div class="card hoverable" style="overflow: visible;">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <div class="activator itempic lazyload" style="background-image: url(https://tu.11114.cc/aimeiju/uploads/allimg/210120/68764eb7a36dc86f.jpg);" data-src="https://tu.11114.cc/aimeiju/uploads/allimg/210120/68764eb7a36dc86f.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-title should-ellipsis activator grey-text text-darken-4">
+                                        老友记<i class="fa fa-commenting-o right"></i>
+                                    </div>
+                                    <p class="should-ellipsis-full">
+                                        Friends
+                                    </p>
+                                    <ul class="skill-list">
+                                        <li class="skill">
+                                            <div>
+                                                S1-10
+                                            </div>
+                                            <progress class="skill-1" max="100" value="15">
+                    </progress>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-reveal" style="display: none; transform: translateY(0%);">
+                                    <span class="card-title grey-text text-darken-4">
+                  老友记<i class="fa fa-close right"></i>
+                </span>
+                                    <span>
+                  Friends<br>
+                </span>
+                                    <span>
+                  放送时间: 2021/12/24<span>
+                    <br>
+                    链接： <a href="https://www.aimeiju6.com/play/?1175-0-11.html">bilibili</a>
+                    <p>《老友记》（Friends）是美国NBC出品的系列情景喜剧，由大卫·克莱恩、玛尔塔·考夫曼、罗杰·克里斯蒂安森等执导，詹妮弗·安妮斯顿、大卫·休默、柯特妮·考克斯、莉莎·库卓、马特·勒布朗和马修·派瑞主演.该剧讲述了居住在纽约的莫妮卡、钱德勒、瑞秋、菲比、乔伊和罗斯三男三女作为彼此最好的朋友，在同一屋檐下生活的日常故事。</p>
+                    <ul class="skill-list">
+                      <li class="skill">
+                        <div>
+                        S1-10</div>
+                        <progress class="skill-1" max="100" value="15">
+                        </progress>
+                      </li>
+                    </ul>
+                  </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col s12 m6" id="bangumi-3">
+                            <div class="card hoverable" style="overflow: visible;">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <div class="activator itempic lazyload" style="background-image: url(https://img4.km.com/dianyingimg/img/d/133/sup401753.jpg);" data-src="https://img4.km.com/dianyingimg/img/d/133/sup401753.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-title should-ellipsis activator grey-text text-darken-4">
+                                        怒火重案<i class="fa fa-commenting-o right"></i>
+                                    </div>
+                                    <p class="should-ellipsis-full">
+                                        Raging Fire
+                                    </p>
+                                    <ul class="skill-list">
+                                        <li class="skill">
+                                            <div>
+                                                完成
+                                            </div>
+                                            <progress class="skill-1" max="100" value="100">
+                    </progress>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-reveal" style="display: none; transform: translateY(0%);">
+                                    <span class="card-title grey-text text-darken-4">
+                  怒火重案<i class="fa fa-close right"></i>
+                </span>
+                                    <span>
+                  Raging Fire<br>
+                </span>
+                                    <span>
+                  放送时间: 2021/08/16<span>
+                    <br>
+                    链接： <a href="https://www.lndayp.com/dongzuopian/nuhuozhonganyueyu/">bilibili</a>
+                    <p>《怒火·重案》是由陈木胜执导，甄子丹、谢霆锋、秦岚领衔主演的动作片。影片于2021年7月30日在中国内地上映。影片讲述了重案组布网围剿国际毒枭过程中，督察张崇邦亲睹战友被杀，但在深入追查发现，悍匪首领竟是昔日战友，宿命让二人再次纠缠，恩恩怨怨就此了断的故事。</p>
+                    <ul class="skill-list">
+                      <li class="skill">
+                        <div>
+                        完成</div>
+                        <progress class="skill-1" max="100" value="100">
+                        </progress>
+                      </li>
+                    </ul>
+                  </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+            
+    </article>
+</div>
+                </div>
+                <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+                    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 hojun<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+        <div class="footertext">
+            <div class="img-preload">
+                <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+                <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+            </div>
+            <p style="color: #666666;">&copy 2018</p>
+        </div>
+        <div class="footer-device">
+            <p style="font-family: 'Ubuntu', sans-serif;">
+                <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
+        </span>
+            </p>
+        </div>
+    </div>
+    <!-- .site-info -->
+</footer>
+
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        var Poi = {
+            "pjax": "1",
+            "movies": {
+                "url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2",
+                "name": "-.mp4",
+                "live": "close"
+            },
+            "windowheight": "fixed",
+            "codelamp": "close",
+            "ajaxurl": "",
+            "order": "asc",
+            "formpostion": "bottom"
+        };
+    } else {
+        var Poi = {
+            "pjax": "1",
+            "movies": {
+                "url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2",
+                "name": "-.mp4",
+                "live": "open"
+            },
+            "windowheight": "auto",
+            "codelamp": "close",
+            "ajaxurl": "",
+            "order": "asc",
+            "formpostion": "bottom"
+        };
+    }
+    /* ]]> */
+</script>
+<script>
+    $(document).ready(function() {
+        if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+            if ($(".pattern-center").length > 0) { //有图的情况
+                tocbot.init({
+                    // Where to render the table of contents.
+                    tocSelector: '.toc', // 放置目录的容器
+                    // Where to grab the headings to build the table of contents.
+                    contentSelector: '.entry-content', // 正文内容所在
+                    // Which headings to grab inside of the contentSelector element.
+                    scrollSmooth: true,
+                    headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+                    headingsOffset: -400,
+                    scrollSmoothOffset: -85
+                });
+            } else {
+                tocbot.init({
+                    // Where to render the table of contents.
+                    tocSelector: '.toc', // 放置目录的容器
+                    // Where to grab the headings to build the table of contents.
+                    contentSelector: '.entry-content', // 正文内容所在
+                    // Which headings to grab inside of the contentSelector element.
+                    scrollSmooth: true,
+                    headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+                    headingsOffset: -85,
+                    scrollSmoothOffset: -85
+                });
+            }
+            var offsetTop = $('.toc').offset().top - 95;
+            window.onscroll = function() {
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+                if (scrollTop >= offsetTop) {
+                    $('.toc').addClass('toc-fixed');
+                } else {
+                    $('.toc').removeClass('toc-fixed');
+                }
+            }
+        }
+    });
+</script>
+                        <div class="openNav no-select" style="height: 50px;">
+                            <div class="iconflat no-select" style="width: 50px; height: 50px;">
+                                <div class="icon"></div>
+                            </div>
+                            <div class="site-branding search-form-submit">
+                                <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+                            </div>
+                        </div>
+        </section>
+        <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/avatar.jpg">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">猫博士👨‍🎓和羟老师👩‍🏫的小站</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/honjun" class="fa fa-github" target="_blank" style="color: #333; margin-left:20px"></a>
+      
+        <a href="http://weibo.com/mashirozx?is_all=1" class="fa fa-weibo" target="_blank" style="color: #dd4b39; margin-left:20px"></a>
+      
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/手账/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  手账
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/文章/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  文章
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/相册/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  相册
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/随想/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/bangumi/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  影视
+                </a>
+              </li>
+            
+              <li>
+                <a href="/music/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  歌单
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                  主题
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="0"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.7"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+    </body>
+
+    </html>
